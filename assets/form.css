@@ -1,0 +1,112 @@
+/* Formulario principal */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff; /* Blanco para fondo */
+    color: #111111; /* Color del texto negro */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+/* Estilo de contenedor */
+/* Estilo de contenedor */
+.login-container, .register-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #f5f5f5; /* Color de fondo gris suave */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Asegura que el padding se tenga en cuenta */
+}
+
+/* Estilo de campos de entrada */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 15px; /* Ajuste para el padding interno */
+    margin-bottom: 15px;
+    border: 1px solid #111111; /* Borde negro */
+    background-color: #ffffff; /* Fondo blanco para los inputs */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #111111;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+}
+
+
+
+/* Estilo de campos de entrada */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #111111; /* Borde negro */
+    background-color: #ffffff; /* Fondo blanco para los inputs */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #111111;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #444444; /* Borde gris oscuro al hacer foco */
+}
+
+/* Estilo del botón */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #111111; /* Botón negro */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #444444; /* Gris oscuro al pasar el ratón */
+}
+
+/* Mensajes de error */
+.error {
+    color: #d9534f; /* Rojo para mensajes de error */
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Enlaces de navegación */
+p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+a {
+    color: #111111; /* Enlaces negros */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #444444; /* Gris oscuro al pasar el ratón sobre los enlaces */
+}
+
+/* Estilo de la caja principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
